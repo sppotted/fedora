@@ -17,19 +17,14 @@ flatpak							`#flatpak deployment framework`	\
 -y 							`#automatic accept`
 
 # Extra utilities
-sudo dnf install									\
-nano							`#terminal text editor`		\
-nnn							`#terminal file manager`	\
-htop							`#terminal task manager`	\
-nvtop							`#terminal gpu task manager`	\
-neofetch						`#terminal system info`		\
-git							`#github/lab downloader`	\
-curl							`#download web data`		\
--y							`#automatic accept`
+# sudo dnf install									\
+# htop							`#terminal task manager`	\
+# nvtop							`#terminal gpu task manager`	\
+# neofetch						`#terminal system info`		\
+# -y							`#automatic accept`
 
 # Setting gnome interface
-sudo systemctl enable gdm
-sudo systemctl set-default graphical.target
+# sudo systemctl enable gdm
 
 # Adding flatpak repo & gnome extensions app
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
