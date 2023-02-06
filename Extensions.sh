@@ -7,7 +7,19 @@
 flatpak install ExtensionManager -y
 
 array=( https://extensions.gnome.org/extension/3193/blur-my-shell/
-https://extensions.gnome.org/extension/3843/just-perfection/ )
+https://extensions.gnome.org/extension/3843/just-perfection/
+https://extensions.gnome.org/extension/779/clipboard-indicator/
+https://extensions.gnome.org/extension/1180/freon/
+https://extensions.gnome.org/extension/545/hide-top-bar/
+https://extensions.gnome.org/extension/5099/hot-bottom/
+https://extensions.gnome.org/extension/750/openweather/
+https://extensions.gnome.org/extension/5446/quick-settings-tweaker/
+https://extensions.gnome.org/extension/2986/runcat/
+https://extensions.gnome.org/extension/3733/tiling-assistant/
+https://extensions.gnome.org/extension/701/top-panel-workspace-scroll/
+https://extensions.gnome.org/extension/2890/tray-icons-reloaded/
+https://extensions.gnome.org/extension/1287/unite/
+https://extensions.gnome.org/extension/5177/vertical-workspaces/ )
 
 for i in "${array[@]}"
 do
